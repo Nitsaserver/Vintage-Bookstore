@@ -1,0 +1,98 @@
+/* CSS */
+body {
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f0e3;
+    color: #5a4635;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    color: #8c6d58;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #e4cdb5;
+    border-bottom: 3px solid #8c6d58;
+}
+
+.logo {
+    font-size: 28px;
+    font-family: 'Courier New', monospace;
+    color: #5a4635;
+}
+
+.search-bar input {
+    padding: 8px;
+    border: 1px solid #8c6d58;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fdf8f3;
+}
+
+.search-bar button {
+    padding: 8px 15px;
+    margin-left: 5px;
+    background-color: #8c6d58;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.cart img {
+    width: 30px;
+    height: 30px;
+}
+
+.main-title {
+    text-align: center;
+    margin: 20px 0;
+    color: #5a4635;
+}
+
+.book {
+    display: flex;
+    gap: 20px;
+    background-color: #fdf8f3;
+    border: 1px solid #8c6d58;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.book img {
+    width: 120px;
+    height: 180px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.details h2 {
+    margin: 0;
+}
+
+.details .price {
+    color: #8c2f39;
+    font-size: 18px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.add-to-cart {
+    background-color: #8c6d58;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}

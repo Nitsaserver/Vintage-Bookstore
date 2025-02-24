@@ -1,0 +1,98 @@
+body {
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f0e3;
+    color: #5a4635;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    color: #8c6d58;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #e4cdb5;
+    border-bottom: 3px solid #8c6d58;
+}
+
+.logo {
+    font-size: 28px;
+    font-family: 'Courier New', monospace;
+    color: #5a4635;
+}
+
+.search-bar input {
+    padding: 8px;
+    border: 1px solid #8c6d58;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fdf8f3;
+}
+
+.search-bar button {
+    padding: 8px 15px;
+    margin-left: 5px;
+    background-color: #8c6d58;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.cart img {
+    width: 30px;
+    height: 30px;
+}
+
+.main-title {
+    text-align: center;
+    margin: 20px 0;
+    color: #5a4635;
+}
+
+#cart-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fdf8f3;
+    border: 1px solid #8c6d58;
+    border-radius: 8px;
+}
+
+#cart-items {
+    list-style-type: none;
+    padding: 0;
+}
+
+#cart-items li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #8c6d58;
+}
+
+#cart-total {
+    font-size: 18px;
+    margin: 20px 0;
+    text-align: right;
+    font-weight: bold;
+}
+
+#checkout {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #8c6d58;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}

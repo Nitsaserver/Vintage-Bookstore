@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart - Vintage Bookstore</title>
+    <link rel="stylesheet" href="cartpage.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo"><a href="vbookstore.html">Vintage Bookstore</a></div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search for books...">
+            <button>Search</button>
+        </div>
+        <div class="cart">
+            <a href="cartpage.html">
+                <img src="https://media.gettyimages.com/id/1243437913/photo/online-shopping-cart.jpg?s=612x612&w=0&k=20&c=qY5X2h2kkq6fZzHJpySr2B6t8m6EqJdnCLWxoOXabeE=" alt="Cart">
+            </a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <h1 class="main-title">Your Shopping Cart</h1>
+        <div id="cart-container">
+            <ul id="cart-items">
+                <!-- Cart items will be dynamically added here -->
+            </ul>
+            <div id="cart-total">Total: $0</div>
+            <button id="checkout">Checkout</button>
+        </div>
+    </main>
+
+    <footer>
+        <ul>
+            <li><a href="#">Terms and Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Support</a></li>
+        </ul>
+    </footer>
+
+    <script src="cartpage.js"></script>
+</body>
+</html>
